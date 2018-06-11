@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7C304D412001F15200DA2C13 /* airport-bssid */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "airport-bssid"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C304D412001F15200DA2C13 /* airport-5ghz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "airport-5ghz"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C304D442001F15200DA2C13 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		7C304D382001F15200DA2C13 = {
 			isa = PBXGroup;
 			children = (
-				7C304D432001F15200DA2C13 /* airport-bssid */,
+				7C304D432001F15200DA2C13 /* airport-5ghz */,
 				7C304D422001F15200DA2C13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		7C304D422001F15200DA2C13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C304D412001F15200DA2C13 /* airport-bssid */,
+				7C304D412001F15200DA2C13 /* airport-5ghz */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7C304D432001F15200DA2C13 /* airport-bssid */ = {
+		7C304D432001F15200DA2C13 /* airport-5ghz */ = {
 			isa = PBXGroup;
 			children = (
 				7C304D442001F15200DA2C13 /* main.swift */,
 			);
-			path = "airport-bssid";
+			path = "airport-5ghz";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C304D402001F15200DA2C13 /* airport-bssid */ = {
+		7C304D402001F15200DA2C13 /* airport-5ghz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C304D482001F15200DA2C13 /* Build configuration list for PBXNativeTarget "airport-bssid" */;
+			buildConfigurationList = 7C304D482001F15200DA2C13 /* Build configuration list for PBXNativeTarget "airport-5ghz" */;
 			buildPhases = (
 				7C304D3D2001F15200DA2C13 /* Sources */,
 				7C304D3E2001F15200DA2C13 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "airport-bssid";
+			name = "airport-5ghz";
 			productName = "airport-bssid";
-			productReference = 7C304D412001F15200DA2C13 /* airport-bssid */;
+			productReference = 7C304D412001F15200DA2C13 /* airport-5ghz */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -89,7 +89,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Binbin Ye";
 				TargetAttributes = {
 					7C304D402001F15200DA2C13 = {
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C304D3C2001F15200DA2C13 /* Build configuration list for PBXProject "airport-bssid" */;
+			buildConfigurationList = 7C304D3C2001F15200DA2C13 /* Build configuration list for PBXProject "airport-5ghz" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C304D402001F15200DA2C13 /* airport-bssid */,
+				7C304D402001F15200DA2C13 /* airport-5ghz */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +141,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -148,6 +149,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -198,6 +200,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -205,6 +208,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -237,7 +241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZ8SBSJ9J5;
+				DEVELOPMENT_TEAM = RYHA8UZK6Y;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -247,7 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FZ8SBSJ9J5;
+				DEVELOPMENT_TEAM = RYHA8UZK6Y;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -256,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C304D3C2001F15200DA2C13 /* Build configuration list for PBXProject "airport-bssid" */ = {
+		7C304D3C2001F15200DA2C13 /* Build configuration list for PBXProject "airport-5ghz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C304D462001F15200DA2C13 /* Debug */,
@@ -265,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C304D482001F15200DA2C13 /* Build configuration list for PBXNativeTarget "airport-bssid" */ = {
+		7C304D482001F15200DA2C13 /* Build configuration list for PBXNativeTarget "airport-5ghz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C304D492001F15200DA2C13 /* Debug */,
